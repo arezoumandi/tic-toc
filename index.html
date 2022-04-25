@@ -11,6 +11,17 @@
 <body>
     <section>
         <h1 class="game--title">Tic Tac Game</h1>
+        <div class="score"> 
+            <div id="plyerScors">
+                    <p > palyer X scors:</p>
+                    <p id="X"></p>
+            </div>
+
+            <div id="plyerScors">
+                <p > palyer O scors:</p>
+                <p id="O"></p>
+            </div>
+        </div>
         <div class="game--container">
             <div id="0" data-index="0" class="cell"></div>
             <div id="1" data-index="1" class="cell"></div>
@@ -23,7 +34,7 @@
             <div id="8" class="cell"></div>
         </div>
         <h2 class="game--status"></h2>
-        <!-- <button class="game--restart">Restart Game</button> -->
+        <button id="restart" >Restar</button>
     </section>
 <script src="./js/script.js"></script>
 </body>
